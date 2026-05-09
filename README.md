@@ -16,6 +16,8 @@ It allows hiding a secret text message inside a BMP image and later extracting i
 ---
 
 ## 📁 Project Structure
+
+```text
 SteganographyLab/
 │
 ├── embed.py          # Script to hide secret message
@@ -24,11 +26,14 @@ SteganographyLab/
 ├── stego-image.bmp   # Output image with hidden data
 └── img/
     └── flowers.bmp   # Cover image
+```
 
 ---
 
 ## 📦 Requirements
-Install required library:
+
+Install the required library:
 
 ```bash
 pip install pillow
+```
